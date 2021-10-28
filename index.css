@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding:0;
+}
+header{
+  background-color: crimson;
+  height: 500px;
+}
+li{
+display: flex;
+flex-direction: row;
+justify-content: center;
+list-style-type: none;
+padding: 3px;
+font-size: 15px;
+margin-top: 25px;
+font-family:monospace;
+color: white;
+
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-content: space-between;
+ 
+}
+.menu{
+  margin-left: 100px;
+  
+}
+.logo img {
+  margin-left: 5px;
+}
+.buttons{
+  margin-left: 1300px;
+  margin-top: -30px;
+}
+#trial{
+  border: 1px solid #000000;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  color:rgb(250, 250, 250);
+  width: 170.92px;
+  height: 50px;
+  font-family: monospace;
+  background-color: black;
+  margin-top: -15px;
+  font-weight: bold;
+}
+#log{
+  border: 3px solid #000000;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  color:rgb(247, 242, 242);
+  position: absolute;
+  width: 96px;
+  height: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: crimson;
+  margin-top: -15px;
+  margin-left: 15px ;
+
+}
+li:hover{
+color: #000;
+cursor: pointer;
+}
+#trial:hover{
+color: darkmagenta;
+cursor: pointer;
+}
+#log:hover {
+  color:black;
+  cursor: pointer;
+}
+.title {
+display: flex;
+justify-content: center;
+padding-top: 170px;
+font-size: 70px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+color: blanchedalmond;
+margin-right: 20px;
+}
+.subtitle{
+display: flex;
+justify-content: center;
+margin-top: 10px;
+font-size: 25px;
+font-family: monospace;
+color: blanchedalmond;
+}
+img.logo{
+margin-top: 10px;
+}
+.forumtitle{
+margin-left: 200px;
+margin-top: 60px;
+font-size: 35px;
+font-style: oblique;
+font-family: 'Franklin Gothic Medium', Arial;
+}
+.subforum{
+  margin-left: 200px;
+  margin-top: 30px;
+  font-size: 15px;
+  font-style:  solid;
+  font-family:monospace;
+
+}
+form{
+display: flex;
+flex-direction: column;
+height: 40px;
+width: 550px;
+margin-left: 180px;
+padding: 1%;
+}
+form input {
+  padding:12px;
+  margin-top: 4%;
+}
+.formtext{
+border: brown solid 1px;
+border-radius: 10%;
+background: #FFFDFD;
+border: 1px solid #B6AAAA;
+box-sizing: border-box;
+backdrop-filter: blur(4px);
+border-radius: 5px;
+text-align: start;
+
+
+}
+#message{
+padding:40px ;
+
+font-family: Sansation;
+
+font-size: 12px;
+line-height: 13px;
+
+color: rgba(119, 111, 111, 0.8);
+text-align: start;
+}
+.placeholder form {
+display: flex;
+align-content: flex-start;
+
+}
+form button{
+  padding:8px;
+  width: 20%;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-left: 442px;
+  background-color: crimson;
+  color: #FFFDFD;
+  font-family: monospace;
+
+ 
+}
+form button:hover{
+color: black;
+cursor: pointer;
+}
+.container2 section {
+display:flex;
+margin-left: 600px;
+}
+.othertitle{
+  margin-left: 900px;
+margin-top: -219px;
+font-size: 35px;
+font-style: oblique;
+font-family: 'Franklin Gothic Medium', Arial;
+}
+.subtitle2{
+  margin-left: 900px;
+  margin-top: 30px;
+  font-size: 15px;
+  font-style: bold solid;
+  font-family:monospace;
+}
+i {
+  font-size: 60px;
+  margin-left: 900px;
+  color: red;
+  
+}
+div.facebook{
+  margin-top: 65px;
+}
+div.twitter{
+  margin-top: 35px;
+
+}
+.fb-text{
+display:flex;
+text-align: justify;
+flex-direction: column;
+margin-left:980px;
+margin-top: -50px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font: solid 6px;
+}
+a.social-link{
+  color: red;
+
+}
+.twitter-text{
+  display:flex;
+text-align: justify;
+flex-direction: column;
+margin-left:980px;
+margin-top: -50px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font: solid 6px;
+
+}
+div.linkedin{
+  margin-top: 35px;
+
+}
+footer{
+background-color: rgba(0, 0, 0, 0.25);
+margin-top: 300px;
+height: 360px;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  justify-content: space-between;
+  margin-top: 25px;
+  font-family: monospace;
+
+}
+.about{
+display: flex;
+flex-direction: column;
+align-content: flex-start;
+margin-left: 150px;
+margin-top: 40px;
+}
+
+.help{
+  display: flex;
+flex-direction: column;
+margin-left: 450px;
+margin-top: -210px;
+padding-right: 56em;
+
+}
+.landing{
+  display: flex;
+  flex-direction: column;
+  margin-left: 700px;
+  margin-top: -290px;
+}
+.commercial{
+  display: flex;
+  flex-direction: column;
+  margin-left: 980px;
+  margin-top: -354px;
+  justify-content:start;
+
+}
+
+
+div.fb-icn
+{
+  margin-left:-900px ;
+  
+
+}
+#fb{
+font-size: 30px;
+}
+section{
+height: 450px;
+}
+div.twitter-icn{
+  margin-left:-869px ;
+  margin-top: -31px;
+
+}
+#twitter{
+font-size: 30px;
+}
+div.linkedin-icn{
+  margin-left:-839px ;
+  margin-top: -31px;
+
+}
+div.linkedin-icn:hover{
+color: black;
+cursor:pointer;
+}
+#linkedin{
+  font-size: 30px;
+
+}
+div.trial-lander{
+  
+  margin-left: 300px;
+  margin-top: -120px;
+  justify-content:end;
+
+}
+.box button {
+  background-color: rgb(2, 32, 47);
+  text-transform: uppercase;
+  border:none;
+  color: #fff;
+  font-weight: 700;
+  padding: 1rem 1rem;
+  margin: 1.7em 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+.box button:hover{ 
+  color: rgb(228, 22, 22);
+  cursor: pointer;
+
+}
+
+
+.firstnav {
+  position: fixed;
+  background-color: crimson;
+  z-index: 1000;
+  width: 100%;
+  padding: 15px;
+}
+.copyright
+{
+  background-color: black;
+  color:cornsilk;
+  margin-top:-150px;
+  width: 1769px;
+  padding: 10px;
+  padding-left: 120px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  font-weight: solid;
+  font-size: 20px;
+}
+.hovering:hover{
+color:crimson;
+cursor: pointer;
+}
+span{
+color: crimson;
+}
+.subtitle0{
+  margin-left: 900px;
+  margin-top: 80px;
+  font-size: 30px;
+ 
+  font-family:monospace;
+
+}
