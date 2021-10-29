@@ -5,6 +5,7 @@
 header{
   background-color: crimson;
   height: 500px;
+  width: 1770px;
 }
 li{
 display: flex;
@@ -33,7 +34,7 @@ ul{
   margin-left: 5px;
 }
 .buttons{
-  margin-left: 1300px;
+  margin-left: 1150px;
   margin-top: -30px;
 }
 #trial{
@@ -227,7 +228,7 @@ footer{
 background-color: rgba(0, 0, 0, 0.25);
 margin-top: 300px;
 height: 380px;
-width: 100%;
+width: 1770px;
 }
 .box{
   display: flex;
