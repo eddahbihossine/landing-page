@@ -226,7 +226,8 @@ div.linkedin{
 footer{
 background-color: rgba(0, 0, 0, 0.25);
 margin-top: 300px;
-height: 360px;
+height: 380px;
+width: 100%;
 }
 .box{
   display: flex;
@@ -340,7 +341,7 @@ div.trial-lander{
   background-color: black;
   color:cornsilk;
   margin-top:-150px;
-  width: 1769px;
+  width: 92,2%;
   padding: 10px;
   padding-left: 120px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
